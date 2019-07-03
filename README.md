@@ -13,12 +13,20 @@ pip install pip2pi
 
 pip install pip==8.0.0
 
-python installer.py
+python3 installer.py
 
 After that, you can run this tool with just type sechub in your terminal.. 
 
 walahh..
 
+Troubleshoot 
+
+Error... pip: no module named _internal
+  - solution; type...
+        
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+
+python2.7 get-pip.py --force-reinstall
 
 --REQUIRMENTS--
 -Linux OS 
