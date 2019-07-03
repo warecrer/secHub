@@ -3,7 +3,7 @@
 #
 #
 
-__author__ = "Josh"
+__author__ = "Warecrer"
 
 import os
 import pip
@@ -18,7 +18,7 @@ python2 sechub.py "$@"
 def main():
 	if os.name != "nt":
 		if os.getuid() == 0:
-			os.system("git clone http://github.com/joshDelta/secHub.git /usr/share/sechub")
+			os.system("git clone http://github.com/warecrer/secHub.git /usr/share/sechub")
 			for i in ["termcolor", "datetime"]:
 				pip.main(["install", i])
 			
