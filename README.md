@@ -11,9 +11,11 @@ cd secHub
 
 pip install pip2pi
 
-pip install pip==8.0.0
+pip install pip==8.0.0    ... downgrade pip
 
-python3 installer.py
+chmod +x installer.py
+
+./installer.py
 
 After that, you can run this tool with just type sechub in your terminal.. 
 
