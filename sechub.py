@@ -53,7 +53,7 @@ def secHub():
 				     Version :: 1.05
 
 				    Developed By Josh
-	                                                            
+	                            Edited By Warecrer                                
 	                                                            
 		
 
